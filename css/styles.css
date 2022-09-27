@@ -58,6 +58,7 @@ body {
 .contacts-list {
   list-style: none;
 }
+
 /* ----------------------------------------Кнопки---------------------------------------- */
 .button-order {
   font-weight: 700;
@@ -91,12 +92,47 @@ body {
   border-radius: 4px;
   color: #ffffff;
 }
+
 /* ----------------------------------------Футер---------------------------------------- */
+.footer-style {
+  background: #2f303a;
+}
+.logo-footer {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .contacts-footer:hover,
 .contacts-footer:focus {
   color: var(--text-active);
 }
 
+.contacts-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.address-list {
+  font-style: normal;
+  list-style: none;
+}
+
+.physical-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
 /* ----------------------------------------Прихований контент---------------------------------------- */
 .visually-hidden {
   position: absolute;
@@ -135,6 +171,10 @@ body {
   text-transform: uppercase;
 }
 
+.advantage-list {
+  list-style: none;
+}
+
 .advantage-description {
   font-weight: 400;
   font-size: 14px;
@@ -149,6 +189,10 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.samples-list {
+  list-style: none;
 }
 
 .our-team {
@@ -177,4 +221,5 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  list-style: none;
 }
