@@ -60,6 +60,7 @@ body {
 .navigation-list-item > .current {
   color: var(--text-active);
 }
+
 /* ----------------------------------------Кнопки---------------------------------------- */
 .button-order {
   font-family: inherit;
@@ -144,6 +145,7 @@ body {
   color: var(--background-color-main);
   text-decoration: none;
 }
+
 /* ----------------------------------------Прихований контент---------------------------------------- */
 .visually-hidden {
   position: absolute;
@@ -164,7 +166,7 @@ body {
   background: var(--background-color-secondary);
 }
 
-.main-section .main-title {
+.main-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -187,7 +189,6 @@ body {
 }
 
 .advantage-description {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -219,7 +220,6 @@ body {
 }
 
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -236,7 +236,25 @@ body {
 }
 
 /* ----------------------------------------Portfolio.html---------------------------------------- */
-
 .list-filter {
   list-style: none;
+}
+
+.project-list-item {
+  border: 1px solid #eeeeee;
+  list-style: none;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-description {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-color-secondary);
 }
