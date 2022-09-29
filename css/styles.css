@@ -29,8 +29,8 @@ body {
 
 .navigation-list-link:hover,
 .navigation-list-link:focus,
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-list-link:hover,
+.contacts-list-link:focus {
   color: var(--text-active);
 }
 
@@ -110,6 +110,7 @@ body {
   border: 1px solid #ececec;
 }
 .logo-footer {
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
